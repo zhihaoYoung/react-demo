@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+  background: #fff!important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body, dl, dt, dd, ul, ol, li, pre, form, fieldset, input, p, blockquote, th, td {
+  font-weight:400;
+  margin:0;
+  padding:0;
+}
+h1, h2, h3, h4, h4, h5 {
+  margin:0;
+  padding:0;
+}
+
+img {
+  content: normal !important; /*vw布局 img属性会默认加上content，导致显示不出图片的bug*/
+}
+input {
+  outline: none;
+  -webkit-appearance: none; /*去除系统默认的样式*/
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* 点击高亮的颜色*/
+}
+a{
+  color:inherit
+}
+.relative{
+  position: relative;
+}
+.block {
+  display: block !important;
+}
+
+.inline {
+  display: inline !important;
+}
+
+.inline-block {
+  display: inline-block !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+.show {
+  display: inherit !important;
+}
+
+.tc{
+  text-align: center
+}
+.tr{
+  text-align: right
+}
+.tl{
+  text-align: left
+}
+.margincenter{
+  margin: 0 auto
+}
+.flex{
+  display: flex
+}
+
+cite{
+  font-style: normal
+}
+
+.float-left {
+  float: left !important;
+}
+
+.float-right {
+  float: right !important;
+}
+
+
+/* 布局-固定页面顶部 */
+
+.top {
+  position: fixed !important;
+  top: 0;
+}
+
+/* 布局-固定页面底部 */
+
+.bottom {
+  position: fixed !important;
+  bottom: 0;
+}
+
+/* 顶部对齐 */
+
+.flex-top {
+  display: flex !important;
+  align-items: flex-start !important;
+}
+
+/* 底部对齐 */
+
+.flex-bottom {
+  display: flex !important;
+  align-items: flex-end !important;
+}
+
+/* 垂直居中-需设置元素高度 */
+
+.flex-middle {
+  display: flex;
+  align-items: center;
+}
+
+/* 水平居中 */
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* 右对齐 */
+
+.flex-right {
+  display: flex;
+  justify-content: flex-end !important;
+}
+
+/* 相同间距 */
+
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* 两端对齐 */
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fr{
+  float: right;
+}
+.clears:after{
+  content: '';
+  display: block;
+  clear: both;
+}

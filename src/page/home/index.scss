@@ -1,0 +1,256 @@
+.mainbox{
+  margin: 30px 0 0
+}
+.reactbox{
+  box-shadow: 0px 7px 6px 0px #f1f1f1f1;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.imgCenter{
+  margin-top: 100px;
+  width: 280px;
+  img{
+    max-width: 100%;
+    width: 100%;
+  }
+}
+.downmore_img{
+  transform: rotate(180deg)
+}
+.boxshow{
+  box-shadow: 0 9px 9px 2px rgba(153, 153, 153,.1)
+}
+.addAccount{
+  font-size: 20px;
+  margin-top: 15px;
+  padding-bottom: 50px;
+  color:#DDDDDD;
+}
+.noAccount{
+  font-size: 30px;
+  color:#000000;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.main{
+  margin: 0 20px;
+  
+  :global(.am-button) {
+    position: relative;
+    color:#fff;
+  }
+  .middletitle{
+    padding: 30px 0
+  }
+  .titlebox{
+    font-size: 32px;
+  }
+  .compostbtn{
+    font-size: 34px;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    overflow: hidden;
+    margin: 80px auto 0
+  }
+  .bankCodebox{
+    >div{
+      margin: 40px 0 
+    }
+  }
+  
+  .imgcode{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 180px;
+    height: 70px;
+    z-index: 8;
+    background: red
+  }
+  .phonedetails{
+    color:#4389FF;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin: 15px 0 30px;
+  }
+  .boxshow_{
+    margin-top: 30px;
+    // padding: 0 20px 30px;
+    padding: 0 20px 0px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px 4px #eeeeee;
+  }
+  .rightboxdetails{
+    width: 580px;
+  }
+  .grayfont{
+    color:#888888
+  }
+  .ulbox{
+    // max-height: 320px;
+    overflow: hidden;
+    // padding-bottom: 40px;
+    &>div{
+      position: relative;
+      padding: 40px 0;
+      &:after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: #EEEEEE;
+        width: 100%;
+        left: 5%;
+        height: 2px;
+      }
+    }
+    div{
+      a{
+        width: 400px;
+      }
+    }
+    div:last-child{
+      &:after{
+        content: '';
+        height: 0px;
+      }
+    }
+    li{
+      // padding-bottom: 40px;
+      margin-bottom: 40px;
+      overflow: hidden;
+      border-bottom: 1px solid #EEEEEE;
+    }
+  }
+  .ulbox.heightauto{
+    height: auto;
+  }
+  .ulbox div li:last-child{
+    border-bottom:0;
+    margin-bottom: 0px;
+  }
+  .inputbox{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+    font-variant: tabular-nums;
+    list-style: none;
+    -webkit-font-feature-settings: 'tnum';
+    font-feature-settings: 'tnum';
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 90px;
+    padding: 0 20px;
+    color: rgba(0,0,0,0.65);
+    line-height: 32px;
+    background-color: #fff;
+    background-image: none;
+    border: 0;
+    border-bottom: 1px solid #DDDDDD;
+    border-radius: 0;
+    // border-radius: 6px;
+    transition: all .3s;
+    &::placeholder{
+      color:#DDDDDD
+    }
+    &:focus {
+      border-bottom-color: #40a9ff;
+      // border-right-width: 1px !important;
+      outline: 0;
+      // -webkit-box-shadow: 0 0 0 2px rgba(24,144,255,0.2);
+      // box-shadow: 0 0 0 2px rgba(24,144,255,0.2);
+  }
+  }
+  .btnStyle{
+    text-align: center;
+    width: 100px;
+    color:#fff;
+    font-size: 24px;
+    border-radius: 4px;
+    padding: 6px 15px;
+    position: relative;
+    z-index: 2;
+    background: #4389FF;
+  }
+  .activeBtn{
+    color:#000000;
+    background: transparent
+  }
+  .iconbank{
+    margin-left: 30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 4px;
+    margin-right: 10px;
+    img{
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  .marb{
+    margin-bottom: 10px
+  }
+  .radiusbox{
+    margin-top: 30px;
+    border:7px solid #4389FF;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    border-radius: 50%;
+    position: relative;
+    top: 3px;
+    display: inline-block;    
+  }
+  .titlebox{
+    color:#000000;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 75px;
+  }
+  .iconbox{
+    width: 48px;
+    height: 48px;
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+    // position: absolute;
+    // right: 0;
+    // top:0
+  }
+  .btnadd{
+    position: relative;
+    background: #4389FF;
+    color:#fff;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 36px;
+    width: 465px;
+    height: 90px;
+    line-height: 90px;
+    margin: 35px auto 0;
+  }
+  .addicon{
+    position: absolute;
+    width: 50px;
+    top:23%
+  }
+  .downmore{
+    width: 60px;
+    height: 25px;
+    img{
+      transition: all .3s;
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+  .onlyInput{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 50px
+  }
+}

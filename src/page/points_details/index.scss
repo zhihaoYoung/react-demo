@@ -1,0 +1,267 @@
+.main{
+  .timerbox{
+    color:#999999;
+    font-size: 22px;
+    margin-top: 40px;
+  }
+  .bluefont{
+    color:#4389FF
+  }
+  .noDatabox{
+    margin-top: 200px;
+  .noData{
+    width: 300px;
+    height: 250px;
+    img{
+      width: 100%;
+      max-width: 100%;
+      }
+    }
+    p{
+      font-weight: bold
+    }
+  }
+  .redFont{
+    color:#FF3A3A
+  }
+  .sectionbox{
+    align-items: flex-end;
+    cite:nth-child(1){
+      margin-top: 15px;
+      width: 240px;
+      margin-right: 20px;
+      line-height: 1.5;
+      overflow: hidden;
+      text-overflow: ellipsis; 
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+    cite:nth-child(2){
+      width: 80px;
+      text-align: right;
+    }
+  }
+  .titlebox_{
+    margin: 0 20px;
+  }
+  .pointerbox{
+    font-weight: bold
+  }
+  .bankBg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .topzindex{
+    position: relative;
+    z-index: 2;
+  }
+  .leftli{
+    position: relative;
+    border-right: 1px solid #EEEEEE;
+    padding-right: 10px;
+    div:nth-child(1){
+      font-size: 32px;
+      font-weight: bold
+    }
+    &::after{
+      content: '';
+      background: #5997FF;
+      position: absolute;
+      top:0;
+      right: -10px;
+      border-radius: 10px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  .warringbox{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top:6px;
+    margin-right: 5px;
+  }
+  .blueboxpointer{
+    min-width: 170px;
+    border-radius: 6px;
+    background: #5997FF;
+    color:#fff;
+    margin-left: 25px;
+    height: 90px;
+    padding: 20px 20px 0;
+    div:nth-child(1){
+      font-size: 32px;
+      font-weight: bold;
+    }
+    div:nth-child(2){
+      font-size: 28px;
+    }
+    +div{
+      font-size: 26px
+    }
+  }
+  .logbuy{
+    margin-left: 30px;
+    div{
+      margin-bottom: 15px;
+    }
+    div:last-child{
+      margin-bottom: 50px;
+    }
+  }
+  .logbox{
+    position: relative;
+    margin-top: 100px;
+    ul{
+      margin: 0px 20px;
+    }
+    &:after{
+      content: '';
+      width: 2px;
+      height: 100px;
+      background: #eee;
+      position: absolute;
+      top:-100px;
+      left: 118px;
+    }
+  }
+  .titlebox{
+    font-size: 28px;
+  }
+  .detailsbox{
+    position: relative;
+    top: -15px;
+    font-size: 26px;
+    text-align: right;
+  }
+  .minBankIcon{
+    width: 80px;
+    height: 80px;
+    margin-right: 5px;
+  }
+  .carddetilas{
+    position: relative;
+    .flexBox{
+      div{
+        font-size: 28px;
+        margin-bottom: 2px;
+      }
+      +div:after{
+        content: '';
+        background: #fff;
+        width: 2px;
+        height: 70px;
+        left: 50%;
+        top:0;
+        margin-left: -1px;
+        position: absolute;
+      }
+    }
+  }
+  .iconbox{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+    img{
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+  .cradbox{
+    position: relative;
+    border-radius: 6px;
+    padding: 80px 25px 0px 25px;
+    color:#fff;
+  }
+  .pointerbox{
+    margin-bottom: 60px;
+    font-size: 50px;
+    margin-top: 10px;
+    b{
+      font-size: 22px;
+      margin-left: 10px;
+      display: inline-block;
+    }
+  }
+  .overlogin{
+    position: relative;
+    b{
+      font-size: 44px;
+      color:#000000
+    }
+    .phonebox{
+      margin-top: 30px;
+      color:#999999;
+      font-size: 36px
+    }
+    i{
+      font-size: 26px;
+      font-style: normal;
+      margin-left: 79px;
+      color:#4389FF
+    }
+  }
+  .marginbox{
+    margin: 20px 15px
+  }
+  .imgbox{
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 15px;
+    img{
+      max-width: 100%;
+    }
+  }
+  .headbox{
+    width: 150px;
+    height: 150px;
+    img{
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+  .padingbox{
+    margin: 0 40px
+  }
+  .borderbottom{
+    position: relative;
+      &::after{
+        content: '';
+        background: #f5f5f5;
+        width: 90%;
+        position: absolute;
+        left: 50%;
+        margin-left: -45%;
+        bottom: -30px;
+        height: 10px;
+      }
+  }
+  // margin: 20px;
+  .loginbox{
+    color:#4389FF;
+    font-size: 44px;
+    border-bottom: 3px solid #4389FF
+  }
+  .borderbox{
+    background: #F5F5F5;
+    margin: 30px 0 20px;
+    height: 20px;
+  }
+  .titlefont{
+    color:#000000;
+    font-size: 32px;    
+    margin-bottom: 60px;
+  }
+  .span_title{
+    color:#999999;
+    font-size: 28px;
+    margin-left: 120px;
+  }
+}

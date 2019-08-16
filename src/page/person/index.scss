@@ -1,0 +1,95 @@
+.main{
+  margin-top: 30px;
+  .titlebox_{
+    margin: 0 20px;
+  }
+  .singoutI{
+    position: absolute;
+    right: 0;
+    top: 30px;
+    text-align: right;
+    margin-right: 24px;
+    margin-top: 30px;
+    display: block;
+    font-size: 26px;
+    font-style: normal;
+    margin-left: 79px;
+    color:#4389FF
+  }
+  .overlogin{
+    position: relative;
+    b{
+      font-size: 28px;
+      color:#999999;
+      font-weight: normal
+    }
+    .phonebox{
+      margin-top: 30px;
+      color:#000000;
+      font-size: 40px
+    }
+    
+  }
+  .marginbox{
+    margin: 20px 15px
+  }
+  .imgbox{
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 15px;
+    img{
+      max-width: 100%;
+    }
+  }
+  .headbox{
+    width: 150px;
+    height: 150px;
+    img{
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+  .padingbox{
+    margin: 0 30px 0 0;
+    padding-bottom: 40px;
+  }
+  .padingboxs{
+    margin: 0 30px
+  }
+  .borderbottom{
+    position: relative;
+      &::after{
+        content: ' ';
+        background: #f5f5f5;
+        width: 90%;
+        position: absolute;
+        left: 50%;
+        margin-left: -45%;
+        bottom: -30px;
+        height: 10px;
+      }
+  }
+  // margin: 20px;
+  .loginbox{
+    color:#4389FF;
+    font-size: 44px;
+    border-bottom: 3px solid #4389FF
+  }
+  .borderbox{
+    background: #F5F5F5;
+    margin: 30px 0 20px;
+    height: 20px;
+  }
+  .titlefont{
+    font-weight: bold;
+    color:#000000;
+    margin-left: 30px;
+    font-size: 32px;    
+    margin-bottom: 60px;
+  }
+  .span_title{
+    color:#999999;
+    font-size: 28px;
+    margin-left: 120px;
+  }
+}

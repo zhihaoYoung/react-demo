@@ -1,0 +1,97 @@
+.main{
+  margin: 20px;
+  :global(.am-button) {
+    background-color: #4389FF
+  }
+  .getcodebtn{
+    font-size: 28px;
+    padding: 0 15px;
+  }
+  .flexbox{
+    flex: 2;
+  }
+  .flexboxsecond{
+    flex: 1;
+    margin-left: 45px;
+  }
+  .webrule{
+    color:#999999;
+    font-size: 24px;
+    margin-top: 25px;
+    b{
+      color: #4389FF;
+      font-weight: normal;
+      text-decoration: underline
+    }
+  }
+  .logobox{
+    margin-top: 150px;
+    width: 150px;
+    height: 150px;
+    background: red
+  }
+  
+  .Login{
+    font-size: 36px;
+    margin: 0 20px
+  }
+  .h1{
+    font-size: 40px;
+    color:#000000;
+    margin-bottom: 125px;
+    font-weight: normal
+  }
+  .spanflex{
+    color:#4389FF;
+    font-size: 28px;
+    margin-top: 30px;
+  }
+  .buttonbox{
+    margin-top: 60px;
+    font-size: 36px
+  }
+  .formbox{
+    margin: 30px 0px 0;
+    cite{
+      margin-bottom: 30px
+    }
+  }
+  .inputbox{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+    font-variant: tabular-nums;
+    list-style: none;
+    -webkit-font-feature-settings: 'tnum';
+    font-feature-settings: 'tnum';
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 94px;
+    padding: 0 20px;
+    color: rgba(0,0,0,0.65);
+    line-height: 32px;
+    background-color: #fff;
+    box-shadow: 0 0 6px 6px #f1f1f1;
+    background-image: none;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    transition: all .3s;
+    &::placeholder{
+      color:#DDDDDD
+    }
+    &:focus {
+      border-color: #40a9ff;
+      border-right-width: 1px !important;
+      outline: 0;
+      -webkit-box-shadow: 0 0 0 2px rgba(24,144,255,0.2);
+      box-shadow: 0 0 0 2px rgba(24,144,255,0.2);
+  }
+  }
+  .textareabox{
+    resize: none;
+    padding: 10px 15px;
+    height: 500px;
+  }
+}

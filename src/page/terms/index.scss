@@ -1,0 +1,167 @@
+.reactbox{
+  box-shadow: 0px 7px 6px 0px #f1f1f1f1;
+  border-radius: 10px;
+  overflow: hidden;
+}
+h1{
+  margin: 0;
+  padding: 30px 20px;
+  font-size: 36px;
+}
+.centerbox{
+  margin: 0 20px;
+  .fb{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: bold
+  }
+  .unline{
+    text-decoration: underline
+  }
+  p{
+    font-size: 24px;
+    line-height: 1.5
+  }
+}
+.imgCenter{
+  margin-top: 100px;
+  width: 280px;
+  img{
+    max-width: 100%;
+    width: 100%;
+  }
+}
+.downmore_img{
+  transform: rotate(180deg)
+}
+.boxshow{
+  box-shadow: 0 9px 9px 2px rgba(153, 153, 153,.1)
+}
+.addAccount{
+  margin-top: 15px;
+  padding-bottom: 50px;
+  color:#DDDDDD;
+}
+.noAccount{
+  font-size: 30px;
+  color:#000000;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.main{
+  margin: 0 20px;
+  
+  :global(.am-button) {
+    position: relative;
+    color:#fff;
+  }
+  .middletitle{
+    padding: 30px 0
+  }
+  .titlebox{
+    font-size: 32px;
+  }
+  .compostbtn{
+    width: 50%;
+    margin: 30px auto 0
+  }
+  .bankCodebox{
+    >div{
+      margin: 40px 0 
+    }
+  }
+  
+  .imgcode{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 180px;
+    height: 70px;
+    z-index: 8;
+    background: red
+  }
+  .phonedetails{
+    color:#4389FF;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin: 15px 0 30px;
+  }
+  .boxshow_{
+    margin-top: 30px;
+    padding: 0 20px 30px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px 4px #eeeeee;
+  }
+  .ulbox{
+    max-height: 320px;
+    overflow: hidden;
+    li{
+      padding-bottom: 40px;
+      margin-bottom: 40px;
+      border-bottom: 1px solid #EEEEEE;
+    }
+  }
+  .ulbox.heightauto{
+    height: auto;
+  }
+  .ulbox li:last-child{
+    border-bottom:0;
+    margin-bottom: 30px;
+  }
+  .btnStyle{
+    color:#fff;
+    font-size: 24px;
+    border-radius: 4px;
+    padding: 6px 15px;
+    background: #4389FF;
+  }
+  .iconbank{
+    margin-left: 30px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    img{
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  .marb{
+    margin-bottom: 10px
+  }
+  .radiusbox{
+    margin-top: 30px;
+    border:3px solid #4389FF;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    position: relative;
+    top: -5px;
+    display: inline-block;    
+  }
+  .titlebox{
+    color:#000000;
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  .btnadd{
+    width: 465px;
+    margin: 35px auto 0;
+  }
+  .addicon{
+    position: absolute;
+    width: 50px;
+    top:23%
+  }
+  .downmore{
+    width: 60px;
+    height: 25px;
+    img{
+      transition: all .3s;
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+}

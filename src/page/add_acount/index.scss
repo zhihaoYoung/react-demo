@@ -1,0 +1,136 @@
+.main{
+  margin: 0 20px;
+  :global(.am-button) {
+    position: relative;
+    color:#fff;
+  }
+  .libox{
+    line-height: 1.6
+  }
+  .ulbox{
+    box-shadow: 0 0 10px 10px #f1f1f1;
+    border-radius: 10px;
+    .borderbottom{
+      border-bottom: 1px solid #EEEEEE;
+      margin: 0 20px;
+      li{
+        position: relative;
+        margin: 0 20px;
+        font-size: 28px;
+        color:#000000;
+        // border-bottom: 1px solid #EEEEEE;
+        padding: 40px 0 40px 70px;
+        b{
+          color:#888888;
+          font-weight: normal;
+          margin-left: 15px;
+          display: inline-block;
+        }
+        .imgCenter{
+          position: absolute;
+          left: 0;
+          top:42px;
+          height:44px;
+          width:44px;
+          img{
+            width: 100%;
+            max-width: 100%;
+          }
+        }
+      }
+      // li:last-child {
+      //   border-bottom: 0
+      // }
+    
+    }
+    .borderbottom:last-child {
+      border-bottom: 0
+    }
+    // li{
+    //   position: relative;
+    //   margin: 0 20px;
+    //   font-size: 28px;
+    //   color:#000000;
+    //   // border-bottom: 1px solid #EEEEEE;
+    //   border-bottom: 1px solid #ff8080;
+    //   padding: 40px 0 40px 70px;
+    //   b{
+    //     color:#888888;
+    //     font-weight: normal;
+    //     margin-left: 15px;
+    //     display: inline-block;
+    //   }
+    //   .imgCenter{
+    //     position: absolute;
+    //     left: 0;
+    //     top:42px;
+    //     height:44px;
+    //     width:44px;
+    //     img{
+    //       width: 100%;
+    //       max-width: 100%;
+    //     }
+    //   }
+    // }
+    // a:last-child li{
+    //   border-bottom: 0
+    // }
+
+   
+
+  }
+  .ulbox div:last-child{
+    margin-bottom: 50px;
+  }
+  .btnStyle{
+    color:#fff;
+    font-size: 24px;
+    border-radius: 4px;
+    padding: 6px 15px;
+    background: #4389FF;
+  }
+  .iconbank{
+    margin-left: 30px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  .marb{
+    margin-bottom: 10px
+  }
+  .radiusbox{
+    margin-top: 55px;
+    border:3px solid #4389FF;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    position: relative;
+    top: -5px;
+    display: inline-block;    
+  }
+  .titlebox{
+    color:#000000;
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  .btnadd{
+    width: 465px;
+    margin: 0 auto;
+  }
+  .addicon{
+    position: absolute;
+    width: 50px;
+    top:23%
+  }
+  .downmore{
+    width: 60px;
+    height: 25px;
+    img{
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+}

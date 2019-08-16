@@ -1,0 +1,343 @@
+.main{
+  margin-top: 30px;
+  position: relative;
+  z-index: 5;
+  .marginboxlist{
+    padding-bottom: 100px
+  }
+  .normalbox{
+    display: block;
+    width: 500px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .iconbox{
+    width: 48px;
+    height: 48px;
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+    // position: absolute;
+    // right: 0;
+    // top:0
+  }
+  .btnadd_{
+    position: relative;
+    background: #4389FF;
+    color:#fff;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 36px;
+    width: 465px;
+    height: 90px;
+    line-height: 90px;
+    margin: 35px auto 0;
+  }
+  .addicon{
+    position: absolute;
+    width: 50px;
+    top:23%
+  }
+  .bluefont{
+    color:#4389FF
+  }
+  .redFont{
+    color:#FF3A3A
+  }
+  .fb{
+    font-weight: bold
+  }
+  .marginbox{
+    margin: 20px 20px;
+  }
+  .imgbox{
+    margin-right: 10px;
+    width: 65px;
+    height: 65px;
+    border-radius: 4px;
+    img{
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  .bankboxlist{
+    font-size: 24px;
+    p:nth-child(1){
+      font-size: 28px;
+      font-weight: bold;
+    }
+  }
+  .filter_box{
+    font-size: 28px;
+    img{
+      width: 22px;
+      height: 22px;
+    }
+  }
+  .addlistAcount{
+    margin-top: 50px;
+    font-size: 36px;
+  }
+  .blueminfont{
+    display: block;
+    color:#4389ff
+  }
+  .searchbox{
+    align-items: center;
+    margin:0 15px 30px 15px;
+  }
+  .noDatabox_{
+    .divimg{
+      margin-top: 90px;
+      width: 280px;
+      height: 215px;
+      margin-bottom: 50px;
+      img{
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+    p{
+      
+      font-size: 28px;
+    }
+  }
+  .noDatabox{
+    position: absolute;
+    top:30%;
+    left: 50%;
+    transform: translate(-50%);
+    .divimg{
+      margin-top: 90px;
+      width: 280px;
+      height: 215px;
+      margin-bottom: 50px;
+      img{
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+    p{
+      color:#000;
+      font-weight: bold;
+      margin-bottom: 80px;
+      font-size: 30px;
+    }
+  }
+  .icon_bill{
+    width: 31px;
+    margin-right: 5px;
+    position: relative;
+    top: 5px;
+    height: 37px;
+  }
+  .reactbox{
+    padding: 10px 0;
+    box-shadow: 0 0 10px 6px #f1f1f1;
+    border-radius: 6px;
+  }
+  .logul li{
+    box-shadow: 0 0 10px 3px #f1f1f1;
+    background: #fff;
+    border-top: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 15px;
+    padding: 0 20px;
+  }
+  .datalist{
+    position: absolute;
+    top:30%;
+    left: 50%;
+    transform: translate(-50%)
+  }
+  .memberbox{
+    font-size: 32px;
+    color:#000000;
+    padding:50px 0 0px;
+    // border-bottom: 1px solid #f1f1f1;
+    border-top: 1px solid #f1f1f1
+  }
+  .lifirstdiv{
+    color:#000000;
+    font-size: 28px;
+    margin: 15px 0;
+  }
+  .liseconddiv{
+    color:#DDDDDD;
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  .lithreediv{
+    border-bottom: 1px solid #f5f5f5;
+    padding: 0  10px 15px;
+    margin: 0 25px 30px 55px;
+    font-size: 28px;
+    span:nth-child(2){
+      text-align: right
+    }
+    b{
+      font-weight: normal;
+      margin-left: 10px;
+    }
+  }
+  .listli {
+    .lithreediv:last-child{
+      border-bottom: 0
+    }
+  }
+  :global(.am-button) {
+    position: relative;
+    color:#fff;
+  }
+
+  .ulbox{
+    li{
+      margin-bottom: 80px;
+    }
+  }
+  .ulbox li:last-child{
+    margin-bottom: 50px;
+  }
+  .btnStyle{
+    color:#fff;
+    font-size: 24px;
+    border-radius: 4px;
+    padding: 6px 15px;
+    background: #4389FF;
+  }
+  .iconbank{
+    margin-left: 30px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  .marb{
+    margin-bottom: 10px
+  }
+  .radiusbox{
+    margin-top: 55px;
+    border:3px solid #4389FF;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    position: relative;
+    top: -5px;
+    display: inline-block;    
+  }
+  .titlebox{
+    color:#000000;
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  .btnadd{
+    width: 465px;
+    margin: 0 auto;
+  }
+  .addicon{
+    position: absolute;
+    width: 50px;
+    top:23%
+  }
+  .downmore{
+    width: 60px;
+    height: 25px;
+    img{
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+  
+  .activeshowfilter{
+    transform: translate3d(0, 0, 0);
+  }
+}
+.filterback{
+  transition: all  0.5s;
+  background:rgba(0,0,0,.6);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 55;
+}
+.flilerBox{
+  transition: all  0.5s;
+  width: 100%;
+  height: 100%;
+  transform: translate3d(100%, 0, 0);
+  // position: absolute;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 56;
+  .centerbox{
+    width: 500px;
+    background: #fff;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top:0;
+    .bggray{
+      background: #f5f5f5
+    }
+    .topTitle{
+      font-size: 28px;
+      padding: 65px 0 30px;
+    }
+    .filterboxTitle{
+      color:#888888;
+      font-size: 32px
+    }
+    .classFont{
+      padding: 25px 30px;
+    }
+    .down_arrow{
+      width: 20px;            
+      height: 20px;        
+    }      
+    .down_arrow:after {            
+        content: '';            
+        display: block;            
+        width: 15px;            
+        height: 15px;            
+        border-right: 1px solid #888;            
+        border-top: 1px solid #888;            
+        transform: rotate(135deg);
+    }
+    .resdown_arrow:after{
+      content: '';
+      transform: rotate(-45deg);
+      top: 10px;
+      position: relative;
+    }
+    .banklist{
+      // padding: 40px 40px;
+      b{
+        text-align: left;
+        display: block;
+        // width: 120px;
+        padding-left: 35px;
+        height: 60px;
+        line-height: 60px;
+        color:#CCCCCC;
+        background: #EEEEEE;
+        margin-bottom: 5px;
+        // border:1px solid #DDDDDD;
+        // border-radius: 10px;
+        font-weight: normal;
+        // padding: 8px;
+        // margin-bottom: 10px;
+      }
+      .Bactive{
+        color:#4389FF;
+        background: #f5f5f5;
+        // border:1px solid #4389FF;
+      }
+    }
+  }
+}
